@@ -1,0 +1,222 @@
+
+
+.universal-container {
+    padding-top: 90px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    width: 90vw;
+    max-width: 1820px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin: 10px;
+    
+    
+}
+
+
+.orta table {
+    background-color: rgba(205, 253, 255, 0.425);
+    border-radius: 20px;
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
+    margin-bottom: 50px;
+    padding: 10px;
+    border: 0;
+    max-width: 600px;
+    
+    
+}
+
+
+.orta #tr {
+    background-color: rgba(241, 5, 5, 0.5);
+    border-radius: 15px;
+    width: 20px;
+    border: 0;
+    
+    
+
+    
+}
+
+.orta #du {
+    background-color: rgba(248, 200, 42, 0.8);
+    border-radius: 15px;
+    width: 20px;
+    border: 0;
+
+    
+}
+
+.orta tr, .orta td , .orta th{
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 0;
+    border-radius: 15px;
+    border: 0;
+    
+    
+}
+
+.orta tr:nth-child(odd) {
+    background-color: rgba(255, 228, 196, 0.281);
+    border-radius: 10px;
+    border: 0;
+    
+}
+
+.orta tr:nth-child(even) {
+    color: rgb(75, 8, 66);
+
+}
+
+.orta  {
+    
+    box-sizing: border-box;
+    background: linear-gradient(to top right, rgb(2, 79, 180), rgb(194, 14, 83)) no-repeat;
+    min-width: 330px;
+    max-width: 700px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(245, 220, 200, 0.392);
+    /* margin: 10px 10px; */
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 10px;
+    margin-bottom: 40px;
+    
+}
+
+.tum-ortalar {
+    min-width: 250px;
+    max-width: 700px;
+    width: 50%;
+    align-items: center;
+}
+
+
+.sagdiv {
+    width: 6vw;
+}
+
+
+
+
+.soldiv {
+    
+    display: flex;
+    background:none;
+    box-sizing: border-box;
+    border: 9px solid rgba(247, 222, 222, 0);
+    border-radius: 10px;
+    width: 6vw;
+    justify-content: center;
+    height: 50vh;
+    
+    
+    
+}
+
+.gunler {
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5%;
+    
+    border-radius: 20px;
+    border: 0px solid rgb(107, 12, 12);
+
+  
+    position: fixed;
+    width: 0.8em;
+    height: 80vh;
+    text-align: left;
+    
+    background: linear-gradient(to top, rgb(26, 118, 224), rgb(179, 3, 71)) no-repeat;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+       
+}
+
+.gunler .first-word:hover {
+    cursor: pointer;
+    padding: 1.4vh ;
+    border-radius: 25px;
+}
+
+/* aslında first word değil 1. ve 2. kelime qwe */
+.gunler .first-word {
+    font-weight: 300;
+    text-align: center;
+    
+    padding: 1vh;   
+    margin-bottom: 20px;
+    
+    text-decoration: none;
+    color: white;
+    
+    background-color: black;
+    background: linear-gradient(to top right, rgb(26, 118, 224), rgb(179, 3, 71)) no-repeat;
+
+    border-radius: 30%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    
+}
+
+.gunler .second-word {
+    font-weight: 500;
+}
+
+
+h4 {
+    text-align: center;
+    color: rgb(29, 24, 24);
+    font-size: larger;
+    margin:15px 5px;
+    padding: 10px;
+
+    background-color: rgb(230, 211, 230);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media (max-width: 550px) {
+
+    
+    
+    h4 {
+        padding: 5px;
+    }
+    
+    .first-word {
+        visibility: hidden;
+        
+    }
+
+    .gunler .second-word {
+        padding: 2vw;
+        border-radius: 15px;
+        visibility: visible;
+        display: inline;
+
+        text-decoration: none;
+        color: white;
+    
+        background-color: black;
+        background: linear-gradient(to top right, rgb(26, 118, 224), rgb(179, 3, 71)) no-repeat;
+    }
+    .gunler .second-word:hover {
+        padding: 2.5vw;
+        border-radius: 15px;
+        visibility: visible;
+        
+
+    }
+}

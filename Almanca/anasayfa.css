@@ -1,0 +1,33 @@
+.table{
+    margin-top: 90px;
+    background-color: rgba(177, 75, 197, 0.726);
+    border-radius: 20px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.table .column {
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    padding: 6px;
+    text-align: center;
+    
+}
+
+.table .column .c1k {
+    background-color: red ;
+}
+
+.table .column {
+    background-color: rgba(221, 165, 233, 0.815);
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 10px;
+
+}
